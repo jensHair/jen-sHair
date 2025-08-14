@@ -1,0 +1,47 @@
+ 
+  body{
+
+     background : url("ReservationForm2.png") no-repeat center top;
+    background-size: cover; /* L'image remplit tout l'écran */
+    background-attachment: scroll; /* Bouge avec le contenu */
+         margin: 0;
+         padding :40px;
+      font-family: 'Georgia', serif;
+      
+}
+ 
+    .app {
+      width:760px;
+      height:30px;
+      margin-bottom: 10px;
+      font-size: 40px;
+    }
+
+    .tags {
+      display: flex;
+      justify-content: space-between;
+      font-weight: bold;
+      font-size: 20px;
+      margin-bottom: 10px;
+    }
+
+
+    .rule-title {
+
+    border-left-width :70px ;
+      font-weight: bold;
+      margin-bottom: 5px;
+      font-size: 100px;
+    }
+
+    .gallery a:hover {
+      text-decoration: underline;
+    }
+
+    .leaf {
+      position: absolute;
+      bottom: 20px;
+      right: 30px;
+      opacity: 0.3;
+    }
+  
